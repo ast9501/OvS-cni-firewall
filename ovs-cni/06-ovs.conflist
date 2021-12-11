@@ -1,0 +1,14 @@
+{
+    "name": "ovs-net",
+    "cniVersion": "0.3.1",
+    "type": "ovs",
+    "bridge": "br1",
+    "vlan": 100,
+    "isDefaultGateway": true,
+    "ipam": {
+        "type": "host-local",
+        "subnet": "10.10.0.0/16",
+        "gateway": "10.10.0.1"
+    }
+}
+
